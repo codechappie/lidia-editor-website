@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+[x-cloak=""] {
+    display: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+nav ul,
+footer ul {
+    list-style: none;
+}
+
+footer {
+    h6 {
+        font-size: 1.67em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footerMain ul {
+        padding-left: 0;
+    }
+}
+
+.myEditor {
+    background: #151719!important;
+}
+
+.styles-module_menuBar__Kv-vr{
+    border: 1px solid #2e2e2e!important;
+}
