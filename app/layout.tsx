@@ -19,11 +19,11 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'Lidia Editor',
+  title: 'Lidia React Editor',
   description: 'Component offers a robust set of features designed to enhance text editing and customization within React applications.',
-  keywords: "",
+  keywords: "lidia react editor, react, lidia editor, react editor, WYSIWYG, WYSIWYG editor",
   openGraph: {
-    title: 'Lidia Editor',
+    title: 'Lidia React Editor',
     description: 'Component offers a robust set of features designed to enhance text editing and customization within React applications.',
   },
 }

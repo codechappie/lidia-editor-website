@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Lidia React Editor | Your favorite WYSIWYG editor 👩‍💻',
+  description: 'Component offers a robust set of features designed to enhance text editing and customization within React applications.',
 }
 
 import Hero from '@/components/hero'
